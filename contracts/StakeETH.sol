@@ -37,7 +37,7 @@ contract StakeEther is ReentrancyGuard {
         require(msg.sender == owner, "Caller is not the owner");
         _;
     }
-
+    // events
     event Staked(address indexed user, uint256 amount, uint256 duration);
     event RewardClaimed(address indexed user, uint256 amount);
     event Withdrawal(address indexed owner, uint256 amount);
