@@ -1,4 +1,3 @@
-
 # Staking and ERC20 Token Contracts
 
 This repository contains two main smart contracts:
@@ -6,9 +5,17 @@ This repository contains two main smart contracts:
 1. **ERC20 Token Contract**: A standard ERC20 token implementation using OpenZeppelin's ERC20 contract.
 2. **Staking Contract**: A staking contract that allows users to stake the ERC20 token and earn rewards based on the staking duration.
 
+## deploy link
+
+ERC20TokenModule#ERC - 0xEC824d6122f5D63A41Cb6AB8839362f342e2b35F
+StakeERC20Module#StakeERC20 - 0x557CB58e6894F96931beA245D6d1Abd22844C439
+
+https://sepolia-blockscout.lisk.com/address/0x557CB58e6894F96931beA245D6d1Abd22844C439#code
+
 ## Table of Contents
 
 - [Staking and ERC20 Token Contracts](#staking-and-erc20-token-contracts)
+  - [deploy link](#deploy-link)
   - [Table of Contents](#table-of-contents)
   - [Contracts Overview](#contracts-overview)
     - [ERC20 Token Contract](#erc20-token-contract)
@@ -129,4 +136,3 @@ function claimReward(uint256 _index) external;
 ## License
 
 This project is licensed under the MIT License.
-
